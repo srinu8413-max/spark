@@ -1,0 +1,14 @@
+# Angular
+node_modules/
+dist/
+
+# .NET
+bin/
+obj/
+.vs/
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
