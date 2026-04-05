@@ -1,0 +1,26 @@
+<h1>Queue Display</h1>
+
+<div *ngIf="currentToken">
+
+<h2>Now Serving</h2>
+
+<h1>{{currentToken.tokenNumber}}</h1>
+<h3>{{currentToken.name}}</h3>
+
+</div>
+
+<h2>Waiting Queue</h2>
+
+<ul>
+
+<ng-container *ngFor="let item of queue">
+
+<li *ngIf="item.status === 'Waiting'">
+
+Token {{item.tokenNumber}} - {{item.name}}
+
+</li>
+
+</ng-container>
+
+</ul>

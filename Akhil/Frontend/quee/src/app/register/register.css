@@ -1,0 +1,48 @@
+/* FULL PAGE FIX (IMPORTANT) */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* CENTER WRAPPER */
+.center-wrapper {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #5f9cff, #7b4eff);
+}
+
+/* CARD */
+.register-card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* INPUTS */
+.register-card input,
+.register-card select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* BUTTON */
+.register-card button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 6px;
+  background: linear-gradient(90deg, #5f9cff, #7b4eff);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
