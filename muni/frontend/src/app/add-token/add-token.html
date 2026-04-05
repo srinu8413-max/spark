@@ -1,0 +1,18 @@
+<h2>Queue System - Add Token</h2>
+
+<input [(ngModel)]="name" placeholder="Enter name">
+<button (click)="addToken()">Add Token</button>
+
+<h3 style="margin-top: 20px;">Current Queue</h3>
+<table border="1" cellpadding="5" cellspacing="0">
+  <tr>
+    <th>Token Number</th>
+    <th>Name</th>
+    <th>Status</th>
+  </tr>
+  <tr *ngFor="let item of queue">
+    <td>{{ item.tokenNumber }}</td>
+    <td>{{ item.name }}</td>
+    <td>{{ item.status }}</td>
+  </tr>
+</table>

@@ -1,0 +1,12 @@
+<h2>Queue List</h2>
+
+<button (click)="next()">Call Next</button>
+
+<ul>
+  <li *ngFor="let item of queue">
+    {{item.tokenNumber}} - {{item.name}} ({{item.status}})
+    
+    <button (click)="complete(item.id)">Complete</button>
+    <button (click)="delete(item.id)">Delete</button>
+  </li>
+</ul>
