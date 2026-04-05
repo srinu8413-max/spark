@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\spark\\bharghavi\\Queuesbooking\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{83C2C18C-799A-257F-B162-7EF344529087}|Queuesbooking\\Queuesbooking.csproj|c:\\users\\admin\\spark\\bharghavi\\queuesbooking\\queuesbooking\\service\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C2C18C-799A-257F-B162-7EF344529087}|Queuesbooking\\Queuesbooking.csproj|solutionrelative:queuesbooking\\service\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C2C18C-799A-257F-B162-7EF344529087}|Queuesbooking\\Queuesbooking.csproj|c:\\users\\admin\\spark\\bharghavi\\queuesbooking\\queuesbooking\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C2C18C-799A-257F-B162-7EF344529087}|Queuesbooking\\Queuesbooking.csproj|solutionrelative:queuesbooking\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C2C18C-799A-257F-B162-7EF344529087}|Queuesbooking\\Queuesbooking.csproj|c:\\users\\admin\\spark\\bharghavi\\queuesbooking\\queuesbooking\\model\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C2C18C-799A-257F-B162-7EF344529087}|Queuesbooking\\Queuesbooking.csproj|solutionrelative:queuesbooking\\model\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C2C18C-799A-257F-B162-7EF344529087}|Queuesbooking\\Queuesbooking.csproj|c:\\users\\admin\\spark\\bharghavi\\queuesbooking\\queuesbooking\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C2C18C-799A-257F-B162-7EF344529087}|Queuesbooking\\Queuesbooking.csproj|solutionrelative:queuesbooking\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C2C18C-799A-257F-B162-7EF344529087}|Queuesbooking\\Queuesbooking.csproj|c:\\users\\admin\\spark\\bharghavi\\queuesbooking\\queuesbooking\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{83C2C18C-799A-257F-B162-7EF344529087}|Queuesbooking\\Queuesbooking.csproj|solutionrelative:queuesbooking\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C2C18C-799A-257F-B162-7EF344529087}|Queuesbooking\\Queuesbooking.csproj|c:\\users\\admin\\spark\\bharghavi\\queuesbooking\\queuesbooking\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C2C18C-799A-257F-B162-7EF344529087}|Queuesbooking\\Queuesbooking.csproj|solutionrelative:queuesbooking\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C2C18C-799A-257F-B162-7EF344529087}|Queuesbooking\\Queuesbooking.csproj|c:\\users\\admin\\spark\\bharghavi\\queuesbooking\\queuesbooking\\queuesbooking.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{83C2C18C-799A-257F-B162-7EF344529087}|Queuesbooking\\Queuesbooking.csproj|solutionrelative:queuesbooking\\queuesbooking.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Auth.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\spark\\bharghavi\\Queuesbooking\\Queuesbooking\\service\\Auth.cs",
+              "RelativeDocumentMoniker": "Queuesbooking\\service\\Auth.cs",
+              "ToolTip": "C:\\Users\\admin\\spark\\bharghavi\\Queuesbooking\\Queuesbooking\\service\\Auth.cs",
+              "RelativeToolTip": "Queuesbooking\\service\\Auth.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwB8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T10:41:21.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\spark\\bharghavi\\Queuesbooking\\Queuesbooking\\Model\\User.cs",
+              "RelativeDocumentMoniker": "Queuesbooking\\Model\\User.cs",
+              "ToolTip": "C:\\Users\\admin\\spark\\bharghavi\\Queuesbooking\\Queuesbooking\\Model\\User.cs",
+              "RelativeToolTip": "Queuesbooking\\Model\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T10:36:04.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Queuesbooking",
+              "DocumentMoniker": "C:\\Users\\admin\\spark\\bharghavi\\Queuesbooking\\Queuesbooking\\Queuesbooking.csproj",
+              "RelativeDocumentMoniker": "Queuesbooking\\Queuesbooking.csproj",
+              "ToolTip": "C:\\Users\\admin\\spark\\bharghavi\\Queuesbooking\\Queuesbooking\\Queuesbooking.csproj",
+              "RelativeToolTip": "Queuesbooking\\Queuesbooking.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-04T10:21:13.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\spark\\bharghavi\\Queuesbooking\\Queuesbooking\\Program.cs",
+              "RelativeDocumentMoniker": "Queuesbooking\\Program.cs",
+              "ToolTip": "C:\\Users\\admin\\spark\\bharghavi\\Queuesbooking\\Queuesbooking\\Program.cs",
+              "RelativeToolTip": "Queuesbooking\\Program.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAIwDwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T10:14:02.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbcontext.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\spark\\bharghavi\\Queuesbooking\\Queuesbooking\\Data\\AppDbcontext.cs",
+              "RelativeDocumentMoniker": "Queuesbooking\\Data\\AppDbcontext.cs",
+              "ToolTip": "C:\\Users\\admin\\spark\\bharghavi\\Queuesbooking\\Queuesbooking\\Data\\AppDbcontext.cs",
+              "RelativeToolTip": "Queuesbooking\\Data\\AppDbcontext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T10:00:05.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\spark\\bharghavi\\Queuesbooking\\Queuesbooking\\Model\\Login.cs",
+              "RelativeDocumentMoniker": "Queuesbooking\\Model\\Login.cs",
+              "ToolTip": "C:\\Users\\admin\\spark\\bharghavi\\Queuesbooking\\Queuesbooking\\Model\\Login.cs",
+              "RelativeToolTip": "Queuesbooking\\Model\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T09:58:06.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\admin\\spark\\bharghavi\\Queuesbooking\\Queuesbooking\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Queuesbooking\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\admin\\spark\\bharghavi\\Queuesbooking\\Queuesbooking\\appsettings.Development.json",
+              "RelativeToolTip": "Queuesbooking\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-04T10:09:01.752Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
