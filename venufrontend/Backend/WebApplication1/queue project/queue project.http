@@ -1,0 +1,6 @@
+@queue_project_HostAddress = http://localhost:5017
+
+GET {{queue_project_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,90 @@
+<div class="dashboard-container">
+  <div class="header">
+    <h1>Queue Management</h1>
+    <p>Add new items and check the current queue</p>
+  </div>
+
+  <div class="error-banner" *ngIf="apiError">
+    <div class="error-content">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="error-icon"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+      <div>
+        <strong>Connection Error</strong>
+        <p>Could not connect to the backend API. Please make sure your .NET server is running on localhost:5253 and CORS is enabled.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-content" *ngIf="!loading">
+    
+    <!-- 1. ADD QUEUE FORM -->
+    <div class="card add-card">
+      <div class="card-header">
+        <h2>Add Queue Item</h2>
+      </div>
+      <div class="form-row">
+        <div class="input-group">
+          <label>Token Number</label>
+          <input type="text" [(ngModel)]="newTokenNumber" placeholder="e.g. A-101" [disabled]="isSubmitting" />
+        </div>
+        <div class="input-group">
+          <label>Status</label>
+          <select [(ngModel)]="newStatus" [disabled]="isSubmitting">
+            <option value="Waiting">Waiting</option>
+            <option value="Serving">Serving</option>
+            <option value="Done">Done</option>
+          </select>
+        </div>
+        <button class="btn-primary" (click)="submitQueue()" [disabled]="isSubmitting || !newTokenNumber.trim()">
+          <span *ngIf="!isSubmitting">Add Queue</span>
+          <span *ngIf="isSubmitting" class="submitting-spinner"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- 2. CHECK QUEUE LIST -->
+    <div class="card index-card">
+      <div class="card-header">
+        <h2>Check Queue</h2>
+        <span class="badge auto-sync">Auto-syncing...</span>
+      </div>
+
+      <div class="table-container">
+        <table *ngIf="queue.length > 0; else emptyQueue">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Token Number</th>
+              <th>Status</th>
+              <th>Created Time</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of queue">
+              <td class="id-cell">#{{ item.id }}</td>
+              <td class="token-cell">
+                <div class="token-number">{{ item.tokenNumber }}</div>
+              </td>
+              <td>
+                <span class="status-badge" [ngClass]="item.status?.toLowerCase() || 'waiting'">
+                  {{ item.status }}
+                </span>
+              </td>
+              <td class="date-cell">{{ item.createdTime | date:'mediumTime' }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      
+      <ng-template #emptyQueue>
+        <div class="empty-state">
+          <p>No items in the queue. Add one using the form above!</p>
+        </div>
+      </ng-template>
+    </div>
+  </div>
+
+  <div class="loading-state" *ngIf="loading && !apiError">
+    <div class="spinner"></div>
+    <p>Loading queue data...</p>
+  </div>
+</div>
